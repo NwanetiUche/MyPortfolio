@@ -1,6 +1,5 @@
 import "./Portfolio.css";
 import React from "react";
-import Felix from "../../assets/Felix.jpeg/";
 
 const Portfolio = () => {
   return (
@@ -10,16 +9,20 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={Felix} alt="" />
+            <img src="../../assets/todo.png" alt="" />
           </div>
           <h3>This is the portfolio item title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/NwanetiUche/MyPortfolio"
+              className="btn"
+              target="_blank"
+            >
               Gitub
             </a>
             <a
-              href="https://github.com"
+              href="http://felixportfolio-nuf.vercel.app/"
               className="btn btnPrimary"
               target="_blank"
             >
@@ -34,11 +37,15 @@ const Portfolio = () => {
           <h3>This is the portfolio item title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/NwanetiUche/FoodApp"
+              className="btn"
+              target="_blank"
+            >
               Gitub
             </a>
             <a
-              href="https://github.com"
+              href="https://foodapp-nuf.vercel.app/"
               className="btn btnPrimary"
               target="_blank"
             >
@@ -53,11 +60,15 @@ const Portfolio = () => {
           <h3>This is the portfolio item title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/NwanetiUche/TodoApp"
+              className="btn"
+              target="_blank"
+            >
               Gitub
             </a>
             <a
-              href="https://github.com"
+              href="https://todoapp-nuf.vercel.app/"
               className="btn btnPrimary"
               target="_blank"
             >
@@ -72,11 +83,15 @@ const Portfolio = () => {
           <h3>This is the portfolio item title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/NwanetiUche/mathstutorial"
+              className="btn"
+              target="_blank"
+            >
               Gitub
             </a>
             <a
-              href="https://github.com"
+              href="https://nwanetiuche.github.io/mathstutorial/GridMaths.html"
               className="btn btnPrimary"
               target="_blank"
             >
