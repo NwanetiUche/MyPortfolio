@@ -15,7 +15,8 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={Port} alt="" />
           </div>
-          <h3>This is the portfolio item title</h3>
+          <h3>My Portfolio Website</h3>
+
           <div className="portfolio_item-cta">
             {" "}
             <a
@@ -38,7 +39,7 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={Foodapp} alt="" />
           </div>
-          <h3>This is the portfolio item title</h3>
+          <h3>Food Recipe App</h3>
           <div className="portfolio_item-cta">
             {" "}
             <a
@@ -61,7 +62,7 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={Todo} alt="" />
           </div>
-          <h3>This is the portfolio item title</h3>
+          <h3>Todo App</h3>
           <div className="portfolio_item-cta">
             {" "}
             <a
@@ -84,7 +85,7 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={Maths} alt="" />
           </div>
-          <h3>This is the portfolio item title</h3>
+          <h3>Maths Tutorial Website</h3>
           <div className="portfolio_item-cta">
             {" "}
             <a
